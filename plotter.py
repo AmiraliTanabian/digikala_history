@@ -8,10 +8,10 @@ import os
 # it can be set to PyQt, PyQt5, PySide or PySide2 (not implemented yet)
 os.environ['PYQTGRAPH_QT_LIB'] = 'PyQt5'
 
-class  PlotWidget(pg.GraphicsWindow):
+class  PlotWidget(pg.GraphicsLayoutWidget):
 
     def __init__(self, parent=None, **kargs):
-        pg.GraphicsWindow.__init__(self, **kargs)
+        pg.GraphicsLayoutWidget.__init__(self, **kargs)
         self.setParent(parent)
         self.setWindowTitle('')
         # Enable antialiasing for prettier plots
