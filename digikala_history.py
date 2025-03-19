@@ -9,7 +9,7 @@
 import os
 import sys
 import qdarkstyle
-from PyQt5 import QtCore, QtGui, QtWidgets
+from PyQt5 import QtWidgets
 from PyQt5.QtCore import QThread, QFile
 from PyQt5.QtWidgets import QTableWidgetItem
 from PyQt5.QtGui import QIcon, QPixmap

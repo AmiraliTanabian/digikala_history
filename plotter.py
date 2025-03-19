@@ -1,8 +1,6 @@
 import pyqtgraph as pg
 import pyqtgraph.exporters
-import numpy as np
-from pyqtgraph.Qt import QtGui, QtCore
-import sys
+from pyqtgraph.Qt import QtGui
 import qdarkstyle
 import os
 
